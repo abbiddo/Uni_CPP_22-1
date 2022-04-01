@@ -15,7 +15,8 @@ int main() {
 	cout << "생성하고자 하는 원의 개수?";
 	int n, radius;
 	cin >> n;
-	Circle* pArray = new Circle[n];
+	Circle* pArray;
+	pArray = new Circle[n];
 	
 	for (int i = 0; i < n; i++) {
 		cout << "원" << i + 1 << ": ";
