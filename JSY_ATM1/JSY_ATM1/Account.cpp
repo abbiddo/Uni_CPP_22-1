@@ -1,6 +1,4 @@
 #include "Account.h"
-#include <string>
-#include <iostream>
 using namespace std;
 
 Account::Account() {
