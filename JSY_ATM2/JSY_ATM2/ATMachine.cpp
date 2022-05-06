@@ -179,14 +179,16 @@ void ATMachine::transfer() {
 		}
 
 		if (ox != -1) {
-			for (int i = 0; i < nCurrentAccountNum; i++) { 
-				int ox2 = pAcctArray[i].deposit(id2, money);
+			for (int j = 0; j < nCurrentAccountNum; j++) {
+				int ox2 = pAcctArray[j].deposit(id2, money);
 				if (ox2 != -1) {
 					cout << " 현재 잔액 : " << ox << endl;
 					cout << " 이체완료\n\n";
 					return;
 				}
 			}
+			cout << "이체 계좌를 확인해주세요\n";
+			pAcctArray[i].deposit(id, password, money);           // 이체 계좌를 찾지 못하면 다시 본 계좌에 입금
 			return;
 		}
 	}
