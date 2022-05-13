@@ -4,7 +4,7 @@
 class Shape {
 	Shape* next;
 protected:
-	virtual void draw();
+	virtual void draw() = 0;
 public:
 	Shape() { next = 0; }
 	virtual ~Shape() {};
