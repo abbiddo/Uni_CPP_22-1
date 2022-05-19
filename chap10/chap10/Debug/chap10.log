@@ -1,0 +1,26 @@
+﻿  ex10-8.cpp
+C:\Users\소영\Desktop\쏭\대학교\2학년 1학기\객체지향언어\객체지향언어\chap10\chap10\ex10-8.cpp(15,42): warning C4244: '=': 'T2'에서 'T1'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              T2=double
+          ]
+          and
+          [
+              T1=int
+          ]
+C:\Users\소영\Desktop\쏭\대학교\2학년 1학기\객체지향언어\객체지향언어\chap10\chap10\ex10-8.cpp(15): message : 클래스 템플릿 멤버 함수 'GClass<int,double>::GClass(void)'을(를) 컴파일하는 중입니다.
+C:\Users\소영\Desktop\쏭\대학교\2학년 1학기\객체지향언어\객체지향언어\chap10\chap10\ex10-8.cpp(24): message : 컴파일되는 함수 템플릿 인스턴스화 'GClass<int,double>::GClass(void)'에 대한 참조를 확인하세요.
+C:\Users\소영\Desktop\쏭\대학교\2학년 1학기\객체지향언어\객체지향언어\chap10\chap10\ex10-8.cpp(24): message : 컴파일되는 클래스 템플릿 인스턴스화 'GClass<int,double>'에 대한 참조를 확인하세요.
+C:\Users\소영\Desktop\쏭\대학교\2학년 1학기\객체지향언어\객체지향언어\chap10\chap10\ex10-8.cpp(15,42): warning C4244: '=': 'T2'에서 'T1'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              T2=float
+          ]
+          and
+          [
+              T1=char
+          ]
+C:\Users\소영\Desktop\쏭\대학교\2학년 1학기\객체지향언어\객체지향언어\chap10\chap10\ex10-8.cpp(15): message : 클래스 템플릿 멤버 함수 'GClass<char,float>::GClass(void)'을(를) 컴파일하는 중입니다.
+C:\Users\소영\Desktop\쏭\대학교\2학년 1학기\객체지향언어\객체지향언어\chap10\chap10\ex10-8.cpp(31): message : 컴파일되는 함수 템플릿 인스턴스화 'GClass<char,float>::GClass(void)'에 대한 참조를 확인하세요.
+C:\Users\소영\Desktop\쏭\대학교\2학년 1학기\객체지향언어\객체지향언어\chap10\chap10\ex10-8.cpp(31): message : 컴파일되는 클래스 템플릿 인스턴스화 'GClass<char,float>'에 대한 참조를 확인하세요.
+  chap10.vcxproj -> C:\Users\소영\Desktop\쏭\대학교\2학년 1학기\객체지향언어\객체지향언어\chap10\Debug\chap10.exe
