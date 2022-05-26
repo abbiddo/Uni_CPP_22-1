@@ -16,6 +16,10 @@ int main() {
 	int n = v[2];
 	v.at(2) = 5;
 
+	// ¿¬½À
+	int &m = v.at(1);
+	m = 3;
+
 	for (int i=0;i<v.size();i++) cout << v[i] << " ";
 	cout << endl;
 }
